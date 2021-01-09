@@ -1,0 +1,179 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  overflow-x: hidden;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(240, 44, 165, 0.89);
+  min-height: 12vh;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  padding: 5px;
+}
+ul li a:hover {
+  background-color: #8de2f7e7;
+  border-left: 50%;
+}
+.nav-links {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+.nav-links a {
+  color: rgb(255, 253, 253);
+  font-weight: bold;
+}
+h4 {
+  color: rgb(255, 253, 253);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.box {
+  height: 90vh;
+  background-color: white;
+  
+}
+.item1 img {
+  height: 90vh;
+  width: 45vh;
+}
+.item2 img {
+  height: 90vh;
+  width: 45vh;
+  position: relative;
+  bottom: 90.64vh;
+  left: 45vh;
+}
+.item3 img {
+  height: 90vh;
+  width: 45vh;
+  position: relative;
+  left: 90vh;
+  bottom: 181.28vh;
+}
+.item4 img {
+  height: 90vh;
+  width: 45vh;
+  position: relative;
+  left: 135vh;
+  bottom: 271.92vh;
+}
+.item5 img {
+  height: 90vh;
+  width: 36vh;
+  position: relative;
+  left: 180vh;
+  bottom: 362.56vh;
+}
+.logo h1 {
+  position: relative;
+  left: 150px;
+  bottom: 40vh;
+  color: rgba(240, 44, 165, 0.89);
+justify-content: space-between;
+}
+.heading h2 {
+  color: rgba(240, 44, 165, 0.89);
+  font-weight: bolder;
+  position: relative;
+  left: 140px;
+  top: 10vh;
+}
+.box1{
+  position: relative;
+  bottom: 12vh;
+  background-color:rgba(253, 231, 231, 0.925);
+  height: 82vh;  
+  
+}
+/*.heading1 h4{
+    position: relative;
+    left: 153px;
+    top: 10px;
+/* } */
+.item6 img {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  top: 100px;
+  left: 153px;
+}
+.item7 img {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left: 84vh;
+  bottom: 32.5vh;
+}
+.item8 img {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left: 146vh;
+  bottom:81.5vh ;
+}
+.heading1 h3{
+  text-align: right;
+  position: relative;
+  right: 10vh;
+  top:7vh;
+  color: rgba(240, 44, 165, 0.89) ;
+}
+.box2{
+  background-color: rgba(240, 44, 165, 0.89) ;
+  
+}
+Section{
+  background-color: rgb(240,44, 165,0.89);
+  height: 80vh;
+  color: white;
+  /* display: flex; */
+  /* padding:70px; */
+  position: relative;
+  bottom: 12vh;
+  overflow-x: hidden;
+  
+}
+.left-con{
+  float: left;
+  position: relative;
+  left: 30vh;
+  top: 15vh;
+}
+.right-con{
+  height: 70px;
+  /* background-color: rgb(206, 115, 115); */
+  position: relative;
+  top: 20vh;
+  right: 10vh;
+  /* color: white; */
+  /* padding-top: 150px;
+  padding-right: 100px; */
+  float: right;
+  
+}
+.container{
+     overflow-y: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
